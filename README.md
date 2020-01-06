@@ -4,7 +4,13 @@ Configuration-centric keyboard shortcuts for your Angular apps.
 
 **This is a fork of the original [angular hotkeys](https://github.com/chieffancypants/angular-hotkeys) which contains some fixes that are not merged in the original repo yet.**
 
-Following is the original Readme
+## Fixed bugs
+
+- [Issue 248](https://github.com/chieffancypants/angular-hotkeys/issues/248)
+
+---
+
+Following content is the original Readme
 
 ---
 
