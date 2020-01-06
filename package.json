@@ -1,7 +1,7 @@
 {
   "name": "angular-hotkeys",
   "author": "Wes Cruver",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "license": "MIT",
   "description": "Automatic keyboard shortcuts for your Angular Apps",
   "homepage": "https://chieffancypants.github.io/angular-hotkeys",
@@ -15,14 +15,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/chieffancypants/angular-hotkeys.git"
+    "url": "git://github.com/ylerjen/angular-hotkeys.git"
   },
   "bugs": {
-    "url": "https://github.com/chieffancypants/angular-hotkeys/issues"
+    "url": "https://github.com/ylerjen/angular-hotkeys/issues"
   },
   "scripts": {
     "postinstall": "bower install",
-    "test": "karma start test/karma.conf.js"
+    "test": "karma start test/karma.conf.js",
+    "build": "grunt build"
   },
   "devDependencies": {
     "bower": "^1.8.8",
