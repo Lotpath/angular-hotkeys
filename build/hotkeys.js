@@ -1,7 +1,7 @@
 /*! 
- * angular-hotkeys v1.7.0
+ * angular-hotkeys v1.7.1
  * https://chieffancypants.github.io/angular-hotkeys
- * Copyright (c) 2016 Wes Cruver
+ * Copyright (c) 2020 Wes Cruver, (adapted by Yann Lerjen)
  * License: MIT
  */
 /*
@@ -303,6 +303,8 @@
 
       function toggleCheatSheet() {
         scope.helpVisible = !scope.helpVisible;
+
+        angular.element(document.body).toggleClass('cfp-hotkeys-visible', scope.helpVisible);
 
         // Bind to esc to remove the cheat sheet.  Ideally, this would be done
         // as a directive in the template, but that would create a nasty
@@ -1050,7 +1052,7 @@
     }
 
     function _belongsTo(element, ancestor) {
-        if (element === document) {
+        if (element === null || element === document) {
             return false;
         }
 
