@@ -1,6 +1,12 @@
-angular-hotkeys
-================
+@ylerjen/angular-hotkeys
+========================
 Configuration-centric keyboard shortcuts for your Angular apps.
+
+**This is a fork of the original [angular hotkeys](https://github.com/chieffancypants/angular-hotkeys) which contains some fixes that are not merged in the original repo yet.**
+
+Following is the original Readme
+
+---
 
 [![Coverage Status](https://coveralls.io/repos/chieffancypants/angular-hotkeys/badge.png?branch=master)](https://coveralls.io/r/chieffancypants/angular-hotkeys?branch=master)
 ![Build Status](https://magnum-ci.com/status/89743485de3e7311dfc9793e26f39b41.png)
@@ -26,7 +32,6 @@ $ bower install chieffancypants/angular-hotkeys --save
 ```
 $ npm install angular-hotkeys --save
 ```
-
 
 *please use either the minified or unminified file in the `build` directory*
 
